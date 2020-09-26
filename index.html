@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive bootstrap page">
+    <meta name="author" content="Coderthemes">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <title>Contagem de Pessoas</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Aos Anime CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Custom styles -->
+    <link href="./css/main.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <section class="section-min home-alt bg-solid_2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2">
+                    <div class="text-center">
+                        <h3 data-aos="fade" data-aos-offset="200" data-aos-delay="250" data-aos-duration="0">
+                            Settings</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SWITCH -->
+    <section class="section-min-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="switch-box cta">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <p>Disable Live Connector<input type="checkbox" name=""> </p>
+                                <span>The connection between
+                                    your
+                                    cameras and central systems will bo disabled </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- DESKTOP section -->
+
+    <section id="desktops" class="desktops layout">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-stretch" data-aos="fade">
+                    <div class="info-box">
+                        <img src="./imagens/Individuals.png" alt="">
+                        <h3>OCCUPATION</h3>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex align-items-stretch video-box" data-aos="fade" data-aos-delay="100">
+                    <div class="info-box">
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa fa-plus"></i></div>
+                        </div>
+                        <div class="icon-box">
+                            <div class="icon"><i class="fa fa-minus"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 d-flex align-items-stretch video-box" data-aos="fade" data-aos-delay="100">
+                    <div class="info-box">
+                        <div class="icon-box">
+                            <div class="icon-2"><i class="fa fa-refresh"></i></div>
+                        </div>
+                        <div class="icon-box"><br>
+                            <h3> RESET </h3>
+                            <p>Current occupation<br>will bo set to "0"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END DESKTOP section -->
+
+
+    <!-- MOBILE section -->
+
+    <section>
+        <div class="container" id="mobile_occupation_menu">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="mobile">
+                        <div class="team-box text-center">
+                            <img src="./imagens/Individuals.png" class="img-fluid mx-auto d-block">
+                            <div class="middle">
+                                <a class="btn" style="margin-right: 30px;" href="#mobile"><i
+                                        class="fa fa-minus"></i></a>
+                                <a class="btn" style="margin-left: 30px;" href="#mobile"><i class="fa fa-plus"></i></a>
+                            </div>
+                            <h4 style="transform: translateY(120%);">OCCUPATION</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" id="mobile_reset_menu">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="mobile">
+                        <div class="team-box text-center">
+                            <div class="middle">
+                                <a class="btn-red" style="margin-top: 7px;" href="#mobile_"><i
+                                        class="fa fa-refresh"></i></a>
+                            </div>
+                            <h4 style="transform: translateY(25%);">RESET</h4>
+                            <p style="transform: translateY(90%); color: #333333;">Current occupation will be set to "0"
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- END MOBILE section -->
+
+
+
+    <!-- aos Anime -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
